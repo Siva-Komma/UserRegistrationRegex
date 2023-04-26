@@ -11,6 +11,7 @@ namespace UserRegistrationRegex
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Regex User Registration");
+            RegexUserRegistration.ValidateFirstName();
             Console.ReadLine();
         }
     }
