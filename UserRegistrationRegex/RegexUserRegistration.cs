@@ -27,5 +27,22 @@ namespace UserRegistrationRegex
                 }
             }
         }
+        public static void ValidateLastName()
+        {
+            string Pattern = "^[A-Z]{1}[a-z]{2,}$";
+            string[] LastName = {"Komma", "hello", "Hl", "Kasireddy" };
+
+            foreach (string input in LastName)
+            {
+                if (Regex.IsMatch(input, Pattern))
+                {
+                    Console.WriteLine("{0} valid input", input);
+                }
+                else
+                {
+                    Console.WriteLine("{0} invalid input", input);
+                }
+            }
+        }
     }
 }
