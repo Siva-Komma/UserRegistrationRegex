@@ -15,6 +15,8 @@ namespace UserRegistrationRegex
             RegexUserRegistration.ValidateFirstName();
             Console.WriteLine("\nValidating LastNamae");
             RegexUserRegistration.ValidateLastName();
+            Console.WriteLine("\nValidating Email");
+            RegexUserRegistration.ValidateEmail();
             Console.ReadLine();
         }
     }
