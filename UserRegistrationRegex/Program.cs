@@ -23,6 +23,8 @@ namespace UserRegistrationRegex
             RegexUserRegistration.PasswordRule1();
             Console.WriteLine("\nValidating User Password rule2 Format");
             RegexUserRegistration.PasswordRule2();
+            Console.WriteLine("\nValidating User Password rule3 Format");
+            RegexUserRegistration.PasswordRule3();
             Console.ReadLine();
         }
     }
