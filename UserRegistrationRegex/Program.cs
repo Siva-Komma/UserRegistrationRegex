@@ -21,6 +21,8 @@ namespace UserRegistrationRegex
             RegexUserRegistration.ValidateMobileFormat();
             Console.WriteLine("\nValidating User Password rule1 Format");
             RegexUserRegistration.PasswordRule1();
+            Console.WriteLine("\nValidating User Password rule2 Format");
+            RegexUserRegistration.PasswordRule2();
             Console.ReadLine();
         }
     }
