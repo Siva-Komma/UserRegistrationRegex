@@ -25,6 +25,8 @@ namespace UserRegistrationRegex
             RegexUserRegistration.PasswordRule2();
             Console.WriteLine("\nValidating User Password rule3 Format");
             RegexUserRegistration.PasswordRule3();
+            Console.WriteLine("\nValidating User Password rule4 Format");
+            RegexUserRegistration.PasswordRule4();
             Console.ReadLine();
         }
     }
